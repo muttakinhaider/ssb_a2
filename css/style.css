@@ -1,0 +1,489 @@
+/* Global CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+section {
+	width: 100%;
+	float: left;
+}
+
+.col-1 {
+	width: 8.33%;
+	float: left;
+}
+
+.col-2 {
+	width: 16.67%;
+	float: left;
+}
+
+.col-3 {
+	width: 25%;
+	float: left;
+}
+
+.col-4 {
+	width: 33.33%;
+	float: left;
+}
+
+.col-5 {
+	width: 41.67%;
+	float: left;
+}
+
+.col-6 {
+	width: 50%;
+	float: left;
+}
+
+.col-7 {
+	width: 58.33%;
+	float: left;
+}
+
+.col-8 {
+	width: 66.67%;
+	float: left;
+}
+
+.col-9 {
+	width: 75%;
+	float: left;
+}
+
+.col-10 {
+	width: 83.33%;
+	float: left;
+}
+
+.col-11 {
+	width: 91.67%;
+	float: left;
+}
+
+.col-12 {
+	width: 100%;
+	float: left;
+}
+
+.row {
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Global CSS End  */
+
+
+/* Topbar CSS Start  */
+
+.topbar {
+	background: #f6f9f9;
+}
+	
+.topbar .logo{
+    padding: 20px 0;
+}
+
+/* Topbar CSS End  */
+
+
+/* Banner Section CSS*/
+
+.banner{
+
+background: url('../image/banner-bg.png');
+
+height: 700px;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+position: relative;
+}
+
+.banner .banner-box{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+width: 100%;
+}
+
+.banner .line {
+
+background: #15a4fa;
+
+height: 2px;
+
+width: 40%;
+
+margin: 0 auto;
+
+margin-bottom: 30px;
+}
+
+.banner .txt {
+	text-transform: uppercase;
+}
+
+.banner h1 {
+
+color: #ffff;
+
+font-size: 115px;
+
+text-transform: uppercase;
+
+text-align: center;
+
+margin-bottom: 10px;
+}
+
+.banner p {
+
+color: #fff;
+
+text-align: center;
+
+font-size: 18px;
+
+margin-bottom: 40px;
+}
+
+.banner .btn {
+
+color: #fff;
+
+text-decoration: none;
+
+border: 1px solid #15a4fa;
+
+border-radius: 2px;
+
+display: block;
+
+width: 10%;
+
+margin: 0 auto;
+
+text-align: center;
+
+padding: 15px;
+
+}
+
+.banner .btn:hover {
+	background: #15a4fa;
+	transition: 0.5s ease-in-out;
+}
+
+
+.banner .fa {
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	transform: translate(-50%);
+	font-size: 40px;
+	color: #fff;
+}
+
+/* About Section CSS */
+
+.about {
+	padding:  80px 0;
+	background: #f6f9f9;
+}
+
+.about h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #2d3950;
+}
+
+.about p{
+    color: #999999;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Feature Section CSS */
+
+.feature {
+	padding: 80px 0;
+}
+
+.feature img {
+
+margin-bottom: 20px;
+}
+
+.feature h3 {
+
+margin-bottom: 25px;
+
+font-size: 22px;
+
+color: #2d3950;
+}
+
+.feature p {
+	
+color: #999;
+	
+font-size: 16px;
+	
+padding: 0 10%;
+
+line-height: 1.4;
+}
+
+
+/* Portfolio Section CSS */
+
+.portfolio {
+	
+padding: 80px 0;
+	
+background: #f6f9f9;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    
+    margin-bottom: 20px;
+    
+    color: #2d3950;
+}
+
+.portfolio p {
+
+color: #999;
+
+font-size: 16px;
+
+padding: 0 10%;
+
+line-height: 1.4;
+
+margin-bottom: 60px;
+}
+
+.port-image {
+    position: relative;
+    margin: 12px;
+}
+
+.port-image img {
+    width: 100%;
+}
+
+.port-image .hovtxt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 0;
+	background: #1b9ef1;
+	opacity: 0;
+}
+
+.port-image:hover .hovtxt {
+	opacity: 0.9;
+	height: 100%;
+	width: 100%;
+	transition: all 0.9s ease-in-out;
+	cursor: pointer;
+}
+
+
+.port-image .hovtxt .hovico {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+.port-image .hovtxt .fa {
+	border: 1px solid #fff;
+	border-radius: 2px;
+	margin-left: 4px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+}
+
+.port-image .hovtxt .fa2 {
+	border: 1px solid #fff;
+	border-radius: 2px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+}
+
+
+.contact {
+	padding: 80px 0;
+	background: linear-gradient(rgba(45, 55, 75, 0.6),#2d374b), url(../image/contact-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 550px;
+}
+
+.contact h2{
+
+font-size: 40px;
+
+margin-bottom: 15px;
+
+color: #fff;
+}
+
+.contact p {
+
+color: #999;
+
+font-size: 16px;
+
+padding: 0 10%;
+
+line-height: 1.4;
+
+margin-bottom: 60px;
+}
+
+form {
+
+width: 50%;
+
+margin: 0 auto;
+}
+
+.form-control {
+
+width: 100%;
+
+color:  #fff;
+
+font-size: 16px;
+
+margin-bottom: 15px;
+
+padding: 15px;
+
+border: 1px solid #999;
+
+border-radius: 3px;
+
+background: transparent;
+
+outline: #fff;
+
+box-sizing: border-box;
+}
+
+form textarea {
+	
+}
+
+.btn-submit {
+
+color: #fff;
+
+font-size: 18px;
+
+border: 1px solid #15a4fa;
+
+border-radius: 2px;
+
+padding: 12px 40px;
+
+background: transparent;
+
+float: right;
+}
+
+.btn-submit:hover {
+	background: #15a4fa;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+input[type=checkbox] {
+	
+width: 18px;
+	
+height: 20px;
+	
+margin-right: 12px;
+	
+vertical-align: middle;
+}
+
+.cbtxt {
+
+color: #fff;
+
+vertical-align: middle;
+
+font-size: 18px;
+}
+
+
+/* Footer Section CSS  */
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    background: #f6f9f9;
+}
+footer p {
+    margin: 15px 0;
+}
+footer .social-icon {
+    float: right;
+}
+footer .social-icon a {
+    background: #15a4fa;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+footer .social-icon a:hover {
+
+	border-radius: 30%;
+	transition: 0.6s linear;
+}
